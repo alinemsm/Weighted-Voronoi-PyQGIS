@@ -20,6 +20,7 @@ and returns a weighted voronoi diagram using pyQGIS
   launch the python console in QGIS and tape the following :
   
       import sys
+      os.chdir("/your/working/directory")
       sys.argv="Path/to/your/vector/layer"
       execfile("Path/to/this/script.py")
     
